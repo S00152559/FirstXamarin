@@ -95,9 +95,9 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XamarinVideo\XamarinVideo.csproj">
-      <Project>{0F0B9DE2-37B1-49D7-8BCD-1D9C4F685444}</Project>
-      <Name>XamarinVideo</Name>
+    <ProjectReference Include="..\..\VideoLib\VideoLib.csproj">
+      <Project>{7b05f117-c8e3-4b30-aefb-21d562620225}</Project>
+      <Name>VideoLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
