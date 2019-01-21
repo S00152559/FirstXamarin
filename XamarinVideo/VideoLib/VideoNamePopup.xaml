@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VideoLib.VideoNamePopup">
+    <StackLayout Margin="12"
+                 Padding="24"
+                 Spacing="24"
+                 BackgroundColor="White"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center">
+        <StackLayout>
+            <Label Text="Name" />
+            <Entry x:Name="textinput" />
+            <Button BackgroundColor="DodgerBlue"
+                    Text="Submit"
+                    TextColor="White"
+                    Clicked="Button_Clicked">
+            </Button>
+        </StackLayout>
+    </StackLayout>
+</pages:PopupPage>

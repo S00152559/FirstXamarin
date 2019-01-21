@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VideoLib;
 using Xamarin.Forms;
 
 namespace XamarinVideo
@@ -16,7 +17,7 @@ namespace XamarinVideo
 
         async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new EditingPage());
+            await Navigation.PushAsync(new ProjectStartPage());
         }
     }
 }

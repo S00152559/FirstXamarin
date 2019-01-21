@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VideoLib.ProjectStartPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="7*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label BackgroundColor="AliceBlue" x:Name="lblProject" Grid.Row="0" Grid.Column="0"></Label>
+            <ListView Header="Videos" BackgroundColor="Cyan" x:Name="lstVideos" Grid.Row="1" Grid.Column="0" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Name}">
+                            <TextCell.ContextActions>
+                                <MenuItem Text="Delete" Clicked="Delete_Clicked"></MenuItem>
+                            </TextCell.ContextActions>
+                        </TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button BackgroundColor="Yellow" Text="Add+" Grid.Row="1" Grid.Column="1" Clicked="BtnAddVideo_Clicked"></Button>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

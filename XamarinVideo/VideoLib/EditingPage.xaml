@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:video="clr-namespace:VideoLib"
+             xmlns:video1="clr-namespace:VideoLib.Library"
              x:Class="XamarinVideo.EditingPage">
     <ContentPage.Content>
         <Grid>
@@ -20,6 +22,17 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <!--<video:VideoPlayer Grid.Row="0" Grid.RowSpan="2" Grid.Column="1">
+                <video:VideoPlayer.Source>
+                    <video1:ResourceVideoSource>
+                        <video1:ResourceVideoSource.Path>
+                            <OnPlatform x:TypeArguments="x:String">
+                                <On Platform="Android" Value="AndroidApiVideo.mp4" />
+                            </OnPlatform>
+                        </video1:ResourceVideoSource.Path>
+                    </video1:ResourceVideoSource>
+                </video:VideoPlayer.Source>
+            </video:VideoPlayer>-->
         </Grid>
     </ContentPage.Content>
 </ContentPage>

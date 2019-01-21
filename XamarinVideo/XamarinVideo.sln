@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinVideo.Android", "XamarinVideo\XamarinVideo.Android\XamarinVideo.Android.csproj", "{A5466D14-70C6-4336-A22B-EA4A6CFF1A99}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinVideo", "XamarinVideo\XamarinVideo\XamarinVideo.csproj", "{B3E6B43D-DC8C-4CA7-B6B8-9BC30A905917}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoLib", "VideoLib\VideoLib.csproj", "{7B05F117-C8E3-4B30-AEFB-21D562620225}"
 EndProject
 Global
@@ -21,10 +19,6 @@ Global
 		{A5466D14-70C6-4336-A22B-EA4A6CFF1A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5466D14-70C6-4336-A22B-EA4A6CFF1A99}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A5466D14-70C6-4336-A22B-EA4A6CFF1A99}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{B3E6B43D-DC8C-4CA7-B6B8-9BC30A905917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B3E6B43D-DC8C-4CA7-B6B8-9BC30A905917}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B3E6B43D-DC8C-4CA7-B6B8-9BC30A905917}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B3E6B43D-DC8C-4CA7-B6B8-9BC30A905917}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7B05F117-C8E3-4B30-AEFB-21D562620225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7B05F117-C8E3-4B30-AEFB-21D562620225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B05F117-C8E3-4B30-AEFB-21D562620225}.Release|Any CPU.ActiveCfg = Release|Any CPU
